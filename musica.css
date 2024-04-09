@@ -1,0 +1,157 @@
+html, body
+{
+    min-height: 600px;
+}
+
+body{
+    min-width: 800px;
+    min-height: 1200px;
+    background-color: black;
+}
+
+#PrecMusic{
+    width: max(18vw, 100px); 
+    height: max(70vh, 300px); 
+    margin-left: max(15vw, 120px);; 
+    margin-top: max(10vh, 40px); 
+    min-width: 150px;
+}
+
+#ActualMusic{
+    width: max(33vw, 200px);  
+    height: max(90vh, 390px); 
+    margin-top: max(5vh, 20px); 
+    min-width: 270px;
+    min-height: 450px;
+}
+
+#PostMusic{
+    width: max(18vw, 100px);  
+    height: max(70vh, 300px); 
+    margin-right: max(15vw, 120px);
+    margin-top: max(10vh, 40px); 
+    min-width: 150px;
+    
+}
+
+#range{
+    z-index: 0;
+    margin-top: -2.2vh;
+    opacity: 0%;
+}
+
+.notPlayable{
+    opacity: 50%;
+}
+
+.card_color{
+    background-color: black;
+    border: 3px solid white
+}
+
+.image_type_3{
+    width: 100%;
+    height: 4.5vh;
+}
+
+.image_type_2{
+    width: 100%;
+    height: 55vh;
+    object-fit: cover;
+}
+
+.image_type_1{
+    width: 100%;
+    height: 65vh;
+    object-fit: cover;
+}
+
+.card-title, .card-text{
+    text-align: center;
+    color: white;
+}
+
+.card-text{
+    margin-top: -1.3vh;
+}
+
+.image-btn{
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.btn{
+    width: max(4vw,34px);
+    height: max(6vh,34px);
+}
+
+.skip_button{
+    width: 70%;
+    height: 70%;
+}
+
+.skip_button:hover{
+    width: 100%;
+    height: 100%;
+}
+
+.timer{
+    font-size: max(1vw,8px);
+    color: white;
+}
+
+.play_button{
+    width: 70%;
+    height: 70%;
+}
+
+.play_button:hover{
+    width: 100%;
+    height: 100%;
+}
+
+.play_btn{
+    --bs-gutter-x:0.75rem;
+}
+
+.progress-bar, .progress{
+    height: 1.5vh;
+}
+
+.progress{
+    background-color: #999696;
+}
+
+.progress-bar{
+    background-color: white;
+    z-index: 1;
+}
+
+.volume_range{
+    margin-top: 2vh;
+    margin-left: -4vw;
+}
+
+#progress_volume{
+    margin-left: -5vw;
+    margin-top: 2vh;
+    width : "20%";
+}
+
+#back_progress_volume{
+    margin-left: -5vw;
+    margin-top: 2vh;
+}
+
+.volume_bar{
+    width: 100%;
+}
+
+#range_volume{
+    width: 100%;
+    height: 5vh;
+    margin-top: -1.5vh;
+    margin-left: -5vw;
+    opacity: 0%;
+}
